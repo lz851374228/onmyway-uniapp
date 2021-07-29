@@ -1,16 +1,77 @@
 {
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+	},
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/coupon/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				
+			}
+		},
+		{
+			"path": "pages/shop/index/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/active/index/index",
+			"style": {
+				
+			}
+		},
+		{
+			"path": "pages/my/index/index",
+			"style": {
+				
 			}
 		}
 	],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "black",//导航栏标题颜色及状态栏前景颜色，仅支持 black/white
+		"navigationBarTitleText": "券内人",//导航栏标题文字内容
+		"navigationBarBackgroundColor": "#F8F8F8",//导航栏背景颜色（同状态栏背景色）
+		"backgroundColor": "#F8F8F8",//下拉显示出来的窗口的背景色
+		"enablePullDownRefresh":true,//是否开启下拉刷新
+		"backgroundTextStyle":"light",//下拉 loading 的样式，仅支持 dark / light
+		"onReachBottomDistance":50//页面上拉触底事件触发时距页面底部距离，单位只支持px
+	},
+	"tabBar":{
+		"color":"#000000",//tab 上的文字默认颜色
+		"selectedColor":"#FF0400",//tab 上的文字选中时的颜色
+		"backgroundColor":"#FFFFFF",//tab 的背景色
+		"borderStyle":"black",//tabbar 上边框的颜色，可选值 black/white
+		"position":"bottom",//可选值 bottom、top
+		"fontSize":"8px",//文字默认大小
+		"iconWidth":"18px",//图标默认宽度（高度等比例缩放）
+		"spacing":"3px",//图标和文字的间距
+		"height":"50px",//tabBar 默认高度
+		"list":[
+			{
+				"pagePath":"pages/coupon/index",
+				"text":"优惠券",
+				"iconPath":"./static/coupon.png",
+				"selectedIconPath":"./static/coupon-select.png"
+			},
+			{
+				"pagePath":"pages/shop/index/index",
+				"text":"良心店铺",
+				"iconPath":"./static/shop.png",
+				"selectedIconPath":"./static/shop-select.png"
+			},
+			{
+				"pagePath":"pages/active/index/index",
+				"text":"活动",
+				"iconPath":"./static/active.png",
+				"selectedIconPath":"./static/active-select.png"
+			},
+			{
+				"pagePath":"pages/my/index/index",
+				"text":"我的",
+				"iconPath":"./static/my.png",
+				"selectedIconPath":"./static/my-select.png"
+			}
+		]
 	}
 }
