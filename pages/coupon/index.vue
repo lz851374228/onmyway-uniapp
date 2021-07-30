@@ -1,7 +1,7 @@
 <!--
  * @Author: zheng li
  * @Date: 2021-07-29 15:28:35
- * @LastEditTime: 2021-07-30 09:31:53
+ * @LastEditTime: 2021-07-30 16:56:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \onmyway-uniapp\pages\coupon\index.vue
@@ -43,26 +43,27 @@ export default {
 
 <style>
 .coupon {
+  width: 100%;
+  height: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  background: #75C4CE
 }
 .coupon .top {
   width: 100%;
   height: 80rpx;
-  background: pink;
 }
 .coupon .banner {
   width: 100%;
-  background: skyblue;
 }
 .coupon .new {
   width: 100%;
   height: 120rpx;
-  background: yellow;
 }
 .coupon .coupon-list {
   width: 100%;
+  flex: 1;
 }
 </style>
