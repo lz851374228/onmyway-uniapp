@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-29 16:10:37
- * @LastEditTime: 2021-07-30 16:22:37
+ * @LastEditTime: 2021-07-30 17:49:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \onmyway-uniapp\pages\coupon\components\city_search_box.vue
@@ -9,7 +9,7 @@
 <template>
   <view class="city-search">
     <view class="city">
-      <view class="top">
+      <view>
         {{ city }}
         <u-icon name="map" size="10"></u-icon>
       </view>
@@ -18,8 +18,12 @@
       </view>
     </view>
     <view class="search">
-		<u-search style="color:white" placeholder="日照香炉生紫烟" v-model="keyword"></u-search>
-	</view>
+      <u-search
+        style="color: white"
+        placeholder="日照香炉生紫烟"
+        v-model="keyword"
+      ></u-search>
+    </view>
   </view>
 </template>
 
@@ -29,7 +33,7 @@ export default {
     return {
       city: "沈阳",
       weather: "多云24℃",
-	  keyword:""
+      keyword: "",
     };
   },
   onLoad() {},
@@ -47,25 +51,19 @@ export default {
   width: 100%;
   height: 100%;
   .city {
-    width: 120rpx;
-    height: 100%;
-    margin-top: 10px;
+    width: 16%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    font-size: 10rpx;
+    font-size: 20rpx;
     .bottom {
-      font-size: 6px;
+      font-size: 20rpx;
       transform: scale(0.7);
-      color: #f2f4f3;
     }
   }
   .search {
     flex: 1;
-	.u-action .u-action-active{
-		color: #f2f4f3 !important
-	}
   }
 }
 </style>

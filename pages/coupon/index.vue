@@ -1,7 +1,7 @@
 <!--
  * @Author: zheng li
  * @Date: 2021-07-29 15:28:35
- * @LastEditTime: 2021-07-30 16:56:12
+ * @LastEditTime: 2021-07-30 17:49:12
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \onmyway-uniapp\pages\coupon\index.vue
@@ -15,7 +15,7 @@
       <banner></banner>
     </view>
     <view class="new">
-      <new></new>
+      <new-box></new-box>
     </view>
     <view class="coupon-list">
       <coupon-list></coupon-list>
@@ -24,12 +24,16 @@
 </template>
 
 <script>
+import citySearch from "./components/city_search_box.vue";
+import banner from "./components/banner.vue";
+import newBox from "./components/new_box.vue";
+import couponList from "./components/coupon_list.vue";
 export default {
   components: {
-    citySearch: () => import("./components/city_search_box.vue"),
-    banner: () => import("./components/banner.vue"),
-    new: () => import("./components/new.vue"),
-    couponList: () => import("./components/coupon_list.vue"),
+    citySearch,
+    banner,
+    newBox,
+    couponList,
   },
   data() {
     return {
@@ -41,7 +45,7 @@ export default {
 };
 </script>
 
-<style>
+<style lang="scss" scoped>
 .coupon {
   width: 100%;
   height: 100%;
@@ -49,7 +53,7 @@ export default {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  background: #75C4CE
+  background: #75c4ce;
 }
 .coupon .top {
   width: 100%;

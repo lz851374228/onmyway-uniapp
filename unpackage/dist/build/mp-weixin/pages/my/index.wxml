@@ -1,0 +1,1 @@
+<view class="my"><view class="base-box"><base-box vue-id="4a180d5e-1" bind:__l="__l"></base-box></view><view class="history"><history vue-id="4a180d5e-2" bind:__l="__l"></history></view></view>

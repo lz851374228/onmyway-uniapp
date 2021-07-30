@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "city-search": "/pages/coupon/components/city_search_box",
+    "banner": "/pages/coupon/components/banner",
+    "new-box": "/pages/coupon/components/new_box",
+    "coupon-list": "/pages/coupon/components/coupon_list"
+  }
+}

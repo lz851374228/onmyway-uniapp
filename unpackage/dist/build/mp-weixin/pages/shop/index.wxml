@@ -1,0 +1,1 @@
+<view class="shop"><view class="search"><search-box vue-id="a932cbd8-1" bind:__l="__l"></search-box></view><view class="ranking"><ranking vue-id="a932cbd8-2" bind:__l="__l"></ranking></view><view class="shop-list"><shop-list vue-id="a932cbd8-3" bind:__l="__l"></shop-list></view></view>

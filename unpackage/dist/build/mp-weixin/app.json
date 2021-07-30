@@ -1,0 +1,57 @@
+{
+  "pages": [
+    "pages/coupon/index",
+    "pages/shop/index",
+    "pages/active/index",
+    "pages/my/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "券内人",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8",
+    "enablePullDownRefresh": true,
+    "backgroundTextStyle": "light",
+    "onReachBottomDistance": 50
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#FF0400",
+    "backgroundColor": "#FFFFFF",
+    "borderStyle": "black",
+    "position": "bottom",
+    "fontSize": "8px",
+    "iconWidth": "18px",
+    "spacing": "3px",
+    "height": "50px",
+    "list": [
+      {
+        "pagePath": "pages/coupon/index",
+        "text": "优惠券",
+        "iconPath": "./static/coupon.png",
+        "selectedIconPath": "./static/coupon-select.png"
+      },
+      {
+        "pagePath": "pages/shop/index",
+        "text": "良心店铺",
+        "iconPath": "./static/shop.png",
+        "selectedIconPath": "./static/shop-select.png"
+      },
+      {
+        "pagePath": "pages/active/index",
+        "text": "活动",
+        "iconPath": "./static/active.png",
+        "selectedIconPath": "./static/active-select.png"
+      },
+      {
+        "pagePath": "pages/my/index",
+        "text": "我的",
+        "iconPath": "./static/my.png",
+        "selectedIconPath": "./static/my-select.png"
+      }
+    ]
+  },
+  "usingComponents": {},
+  "sitemapLocation": "sitemap.json"
+}

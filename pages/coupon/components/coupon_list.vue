@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2021-07-29 16:11:13
- * @LastEditTime: 2021-07-30 16:55:10
+ * @LastEditTime: 2021-07-30 17:28:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \onmyway-uniapp\pages\coupon\components\coupon_list.vue
@@ -203,7 +203,7 @@ export default {
       }
       .require {
         margin-top: -50rpx;
-        font-size: 10rpx;
+        font-size: 16rpx;
       }
     }
     .center {

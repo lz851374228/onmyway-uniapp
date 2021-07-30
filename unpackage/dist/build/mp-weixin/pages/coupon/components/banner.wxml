@@ -1,0 +1,1 @@
+<view class="banner-content data-v-3e6024d0"><view class="wrap data-v-3e6024d0"><u-swiper vue-id="ab0420de-1" list="{{list}}" class="data-v-3e6024d0" bind:__l="__l"></u-swiper></view></view>
