@@ -1,7 +1,7 @@
 <!--
- * @Author: your name
+ * @Author: zheng li
  * @Date: 2021-07-29 15:28:35
- * @LastEditTime: 2021-07-29 17:40:05
+ * @LastEditTime: 2021-07-30 09:31:53
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: \onmyway-uniapp\pages\coupon\index.vue
@@ -64,7 +64,5 @@ export default {
 }
 .coupon .coupon-list {
   width: 100%;
-  height: 120rpx;
-  background: yellow;
 }
 </style>

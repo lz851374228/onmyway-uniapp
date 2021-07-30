@@ -10,19 +10,19 @@
 			}
 		},
 		{
-			"path": "pages/shop/index/index",
+			"path": "pages/shop/index",
 			"style": {
 				
 			}
 		},
 		{
-			"path": "pages/active/index/index",
+			"path": "pages/active/index",
 			"style": {
 				
 			}
 		},
 		{
-			"path": "pages/my/index/index",
+			"path": "pages/my/index",
 			"style": {
 				
 			}
@@ -55,19 +55,19 @@
 				"selectedIconPath":"./static/coupon-select.png"
 			},
 			{
-				"pagePath":"pages/shop/index/index",
+				"pagePath":"pages/shop/index",
 				"text":"良心店铺",
 				"iconPath":"./static/shop.png",
 				"selectedIconPath":"./static/shop-select.png"
 			},
 			{
-				"pagePath":"pages/active/index/index",
+				"pagePath":"pages/active/index",
 				"text":"活动",
 				"iconPath":"./static/active.png",
 				"selectedIconPath":"./static/active-select.png"
 			},
 			{
-				"pagePath":"pages/my/index/index",
+				"pagePath":"pages/my/index",
 				"text":"我的",
 				"iconPath":"./static/my.png",
 				"selectedIconPath":"./static/my-select.png"
